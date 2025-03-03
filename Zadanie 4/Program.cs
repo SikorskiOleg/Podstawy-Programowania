@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_1
+namespace Zadanie_4
 {
     class Program
     {
         static void Main(string[] args)
         {
+            string a;
+            string b;
+            Console.Write("Podaj podstawe prostokata");
         }
     }
 }

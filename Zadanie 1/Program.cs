@@ -10,8 +10,8 @@ namespace Zadanie_1
     {
         static void Main(string[] args)
         {
-            
-
+            Console.WriteLine("Witaj Świecie");
+            Console.ReadKey(true);
         }
     }
 }
