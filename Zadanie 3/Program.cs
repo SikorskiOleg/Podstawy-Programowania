@@ -6,10 +6,10 @@ namespace Zadanie_3
     {
         static void Main(string[] args)
         {
-            string a;
-            Console.Write("Podaj liczbę całkowita");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("a^3= 0}" , a*a*a);
+            int a;
+            Console.Write("Podaj liczbę całkowita: ");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("a^3= {0}" , a*a*a);
             Console.ReadKey(true);
         }
     }
