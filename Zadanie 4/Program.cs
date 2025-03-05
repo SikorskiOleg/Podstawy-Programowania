@@ -10,9 +10,15 @@ namespace Zadanie_4
     {
         static void Main(string[] args)
         {
-            string a;
-            string b;
-            Console.Write("Podaj podstawe prostokata");
+            int a;
+            int b;
+            Console.Write("Podaj podstawe prostokata: ");
+                a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Podaj wysokosc prostokata: ");
+                b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Pole prostokąta to: {0}", a*b);
+            Console.Write(" Obwód prostokąta to: {0}", 2 * a + 2 * b);
+            Console.ReadKey();
         }
     }
 }
