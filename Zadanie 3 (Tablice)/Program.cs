@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,21 +13,31 @@ namespace Zadanie_3__Tablice_
         {
             int[] tab = new int[1000];//tablica 1000 liczb
             int i, n;
+            int temp;
             Console.WriteLine("Podaj liczbe elementow tablicy mniejszych równych tysiąc: ");
             n = Convert.ToInt32(Console.ReadLine());
-            for (i = 1; i <= n; i++)
+            for (i = 0; i < n; i++)
             {
-                Console.WriteLine("Podaj liczbe {0}: ", i);
+                Console.WriteLine("Podaj liczbe {0}: ", i+1);
                 tab[i] = Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("Liczby posortowane niemalejąco: ");
-            int[] tab2 = new int[1000];
-            for (i = 1; i<n; i++)
+            //sortowanie
+            for (i = 0; i<n; i++)
             {
-                
-                
+                for (int j = i+1; j < n; j++)
+                {
+                    if (tab[i] > tab[j])
+                    { temp = tab[i]; tab[i] = tab[j]; tab[j] = temp; }
+                }  
             }
-            Console.ReadKey();
+            //koniec sortowania
+            Console.WriteLine("Liczby posortowane niemalejąco: ");
+            for (i = 0; i < n; i++)
+            {
+                Console.WriteLine("{0}", tab[i]);
+            }
+                
+                Console.ReadKey();
         }
         
     }
