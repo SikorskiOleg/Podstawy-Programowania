@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_1
+namespace Zadanie_3__Tablice_
 {
     class Program
     {
@@ -14,16 +14,16 @@ namespace Project_1
             int i, n;
             Console.WriteLine("Podaj liczbe elementow tablicy mniejszych równych tysiąc: ");
             n = Convert.ToInt32(Console.ReadLine());
-            for (i=1; i<=n;i++)
+            for (i = 1; i <= n; i++)
             {
                 Console.WriteLine("Podaj liczbe {0}: ", i);
                 tab[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (i = 1; i <= n; i++)
+            for (i = n; i > 0; i--)
             {
-                Console.WriteLine("Liczba {0} to: {1}", i, tab[i]);
+                
+                
             }
-            Console.ReadKey();
         }
     }
 }
