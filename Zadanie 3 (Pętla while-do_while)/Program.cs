@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_1
+namespace Zadanie_3__Pętla_while_do_while_
 {
     class Program
     {
@@ -15,14 +15,14 @@ namespace Project_1
             Console.WriteLine("Podaj b: ");
             int b = Convert.ToInt32(Console.ReadLine());
             int i = a;
+            int suma = 0;
             while (i <= b)
             {
-                if (i % 2 == 0)
-                {
-                    Console.WriteLine(i);
-                }
-                i++;
+               suma += i;
+               i++;
             }
+            Console.WriteLine("Suma liczb od {0} do {1} wynosi: {2}", a, b, suma);
+            Console.ReadKey();
         }
     }
 }

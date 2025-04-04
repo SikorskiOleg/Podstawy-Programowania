@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project 1", "Project 1\Project 1.csproj", "{EDA4A094-DE20-4438-9F88-7561DE4405B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 1 (Pętle while-do_while)", "Project 1\Zadanie 1 (Pętle while-do_while).csproj", "{EDA4A094-DE20-4438-9F88-7561DE4405B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 2 (Pętle while-do_while)", "Zadanie 2 (Pętle while-do_while)\Zadanie 2 (Pętle while-do_while).csproj", "{1C46F778-1D65-43A4-8CF9-3CF7509F4761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 3 (Pętla while-do_while)", "Zadanie 3 (Pętla while-do_while)\Zadanie 3 (Pętla while-do_while).csproj", "{DB374B84-4C54-4473-8722-AB23729C06E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4 (Pętla while-do_while)", "Zadanie 4 (Pętla while-do_while)\Zadanie 4 (Pętla while-do_while).csproj", "{21BF43E0-0CE1-47A5-A42E-9207497230BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 5 (Pętle while-do_while)", "Zadanie 5 (Pętle while-do_while)\Zadanie 5 (Pętle while-do_while).csproj", "{CEA78495-E331-4A68-BFD8-B5FDD33E6BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{EDA4A094-DE20-4438-9F88-7561DE4405B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDA4A094-DE20-4438-9F88-7561DE4405B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDA4A094-DE20-4438-9F88-7561DE4405B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C46F778-1D65-43A4-8CF9-3CF7509F4761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C46F778-1D65-43A4-8CF9-3CF7509F4761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C46F778-1D65-43A4-8CF9-3CF7509F4761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C46F778-1D65-43A4-8CF9-3CF7509F4761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB374B84-4C54-4473-8722-AB23729C06E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB374B84-4C54-4473-8722-AB23729C06E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB374B84-4C54-4473-8722-AB23729C06E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB374B84-4C54-4473-8722-AB23729C06E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BF43E0-0CE1-47A5-A42E-9207497230BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BF43E0-0CE1-47A5-A42E-9207497230BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BF43E0-0CE1-47A5-A42E-9207497230BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BF43E0-0CE1-47A5-A42E-9207497230BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA78495-E331-4A68-BFD8-B5FDD33E6BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA78495-E331-4A68-BFD8-B5FDD33E6BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA78495-E331-4A68-BFD8-B5FDD33E6BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA78495-E331-4A68-BFD8-B5FDD33E6BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
