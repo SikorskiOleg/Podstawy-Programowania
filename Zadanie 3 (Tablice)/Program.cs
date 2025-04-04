@@ -19,11 +19,15 @@ namespace Zadanie_3__Tablice_
                 Console.WriteLine("Podaj liczbe {0}: ", i);
                 tab[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (i = n; i > 0; i--)
+            Console.WriteLine("Liczby posortowane niemalejąco: ");
+            int[] tab2 = new int[1000];
+            for (i = 1; i<n; i++)
             {
                 
                 
             }
+            Console.ReadKey();
         }
+        
     }
 }
