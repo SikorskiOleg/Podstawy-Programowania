@@ -9,12 +9,16 @@ namespace Project_1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        
+        
             static int suma(int a, int b)
                 { return a + b; }
-            static void 
+            static void Main(string[] args)
+                {
+                Console.WriteLine("2+5 = {0}", suma(2, 5));
+                Console.ReadKey();
+            }
 
-        }
+        
     }
 }
