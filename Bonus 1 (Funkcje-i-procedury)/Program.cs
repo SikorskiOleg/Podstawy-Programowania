@@ -9,37 +9,15 @@ namespace Bonus_1__Funkcje_i_procedury_
 {
     class Program
     {
-        static void roznica_tablic(int[,] tab1, int[,] tab2)
+        static int roznica_tablic(int[,] tab1, int[,] tab2,int wiersz,int kolumna)
         {
-            int i, j, n, roznica;
-            for (i = 0; i < n; i++)
-            {
-                for (j = 0; j < n; j++)
-                {
-                    roznica = tab1[i, j] - tab2[i, j];
-                    Console.Write("Różnica wartości komórek: [{0}] [{1}] tych tabel to: {2}", i + 1, j + 1, roznica);
-                }
-            }
+            if (wiersz < 0 || wiersz > tab1.GetLength(0) || kolumna < 0 || kolumna > tab1.GetLength(1)) 
+            { Console.WriteLine("Niepoprawne dane"); }
+            return tab1[wiersz, kolumna] - tab2[wiersz, kolumna];
         }
         static void Main(string[] args)
         {
-            int n, i, j;
-            Console.Write("Podaj wielkość symetrycznych tablic: ");
-            n = Convert.ToInt32(Console.ReadLine());
-            int[,] tab1 = new int[n, n];
-            for (i = 0; i < n; i++)
-            {
-                for (j = 0; j < n; j++)
-                {
-                    Console.Write("Podaj wartości tabeli 1: [{0}] [{1}]", i+1, j+1);
-                    tab1[i, j] = Convert.ToInt32(Console.ReadLine());
-                }
-            }
-            foreach (int liczba in tab1)
-            {
-                Console.WriteLine(tab1[i, j]);
-            }
-            Console.ReadKey();
+           
             
         }
     }
